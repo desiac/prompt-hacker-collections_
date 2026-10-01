@@ -7,6 +7,7 @@ Prompt injection is one of the major safety concerns of LLMs like ChatGPT。
 This repository serves as a comprehensive resource on the study and practice of prompt-injection attacks, defenses, and interesting examples. It contains a collection of examples, case studies, and detailed notes aimed at researchers, students, and security professionals interested in this topic.
 
 本仓库是关于提示词注入攻防及其有趣示例的收集资源。
+This repository is a collection of resources on prompt word injection attacks and defenses, along with interesting examples.
 
 ## 📚 Table of Contents
 
@@ -15,26 +16,34 @@ In this repository, you'll find:
 ### **📖 Introductions and Documents**
 
 这部分介绍了提示词注入攻防及其有趣示例的基本概念和背景知识，也包含一些完整的示例。
+This section introduces the basic concepts and background knowledge of prompt word injection attacks and defenses and their interesting examples, and also includes some complete examples.
 
 - [**提示词对抗简介**](./documents/intro.md)
+- [**Introduction to Prompt-Based Adaptation**](./documents/intro.md)
 
 ### **📝 Prompt Collections**
 
 这一部分包含了各种类型的 Prompt 实例，包括提示词逆向工程、提示词越狱、提示词攻击、提示词防御等，以 YAML 的方式组织它们，以便使用或者解析。
+This section contains various types of Prompt instances, including Prompt reverse engineering, Prompt jailbreaking, Prompt attacks, and Prompt defenses, organized in YAML format for easy use or parsing.
 
 #### [**大模型越狱的对应提示词  Jailbreak prompts**](jailbreak/)
+#### [**Jailbreak prompts for large-scale jailbreaks**](jailbreak/)
 
 The act of jailbreaking ChatGPT involves removing the limitations and restrictions imposed on the AI language model. To initiate this process, users can input specific prompts into the Chat interface. These ChatGPT Jailbreak Prompts were originally discovered by Reddit users and have since become widely used.
 
 Once ChatGPT has been successfully jailbroken, users can request the AI chatbot to perform various tasks, including sharing unverified information, providing the current date and time, and accessing restricted content. This article will delve into the working ChatGPT jailbreak prompts list.
 
 ChatGPT 的越狱行为涉及消除对AI语言模型的限制和约束。为了启动这一过程，用户可以在聊天界面上输入特定的提示。这些ChatGPT越狱提示最初是由Reddit用户发现的，后来被广泛使用。
+Jailbreaking ChatGPT involves removing restrictions and constraints on AI language models. To initiate this process, users can enter specific hints in the chat interface. These ChatGPT jailbreak hints were initially discovered by Reddit users and subsequently gained widespread use.
 
 一旦 ChatGPT 成功越狱，用户可以要求人工智能聊天机器人执行各种任务，包括分享未经核实的信息，提供当前日期和时间，以及访问受限制的内容。本文将深入研究工作中的 ChatGPT 越狱提示列表。使用提示词进行越狱的方法不仅仅对于 GPT 有效，对于其他语言模型也是存在一定程度上的通用性。
+一 Once ChatGPT is successfully jailbroken, users can request the AI ​​chatbot to perform various tasks, including sharing unverified information, providing the current date and time, and accessing restricted content. This article will delve into the ChatGPT jailbreak hint list in practice. The method of using hints for jailbreaking is not only effective for GPT but also has a certain degree of universality for other language models.
 
 我们在 [jailbreak/](jailbreak/) 中收集了数十种越狱的提示词，以 YAML 的方式组织它们，针对于多种不同的模型，以便使用或者解析。
+We have collected dozens of jailbreak hints in [jailbreak/](jailbreak/), organized them in YAML format, and targeted them for various different models for use or parsing.
 
 例如一个示例，使用 DAN 的提示词来越狱 ChatGPT：
+For example, using the DAN prompt to jailbreak ChatGPT:
 
 ```yaml
 prompt: |
@@ -44,25 +53,31 @@ url: /prompt/acccdb08-fea5-4996-973a-cada62fad1c8
 ```
 
 #### [**提示词逆向工程的对应提示词 Prompt Reverse Engineering prompts**](reverse/)
+#### [**Prompt for Reverse Engineering**](reverse/)
 
 - [Reverse-engineering the source prompts of Notion AI](https://news.ycombinator.com/item?id=34165522)
 - [Example: Copilot Reverse Engineering](reverse/copilot.md)
 - [Midjourney /describe: Reverse Engineer the Prompt](https://technomancers.ai/midjourney-describe-reverse-engineer-the-prompt/)
 
 #### [**提示词攻击的对应提示词  Prompt Attacks prompts**](attack/)
-
+#### [**Prompt Attacks prompts**](attack/)
 
 
 #### [**提示词防御的对应提示词  Prompt Defense prompts**](defense/)
+#### [**Prompt Defense prompts**](defense/)
 
 ### **🔗 相关资源 Related Resources**
+### **Link Related Resources**
 
 Here are some related resources that can help you understand prompt-injection attacks, defenses, and interesting examples better:
 
 这里有一些可以帮助你更好地理解提示词注入攻防及其有趣示例的相关资源：
+Here are some resources that can help you better understand prompt word injection attacks and defenses, as well as interesting examples:
 
 - [OpenAI 大模型安全的最佳实践 | OpenAI safety-best-practices](https://platform.openai.com/docs/guides/safety-best-practices)
 - [大型语言模型（LLM）的红队介绍 | microsoft openai red-teaming](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/red-teaming)
+- [OpenAI Safety Best Practices for Large Models](https://platform.openai.com/docs/guides/safety-best-practices)
+- [Introduction to Red Teaming for Large Language Models (LLMs)](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/red-teaming)
 
 ## 🤝 Contributing
 
