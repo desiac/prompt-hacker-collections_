@@ -1,6 +1,6 @@
 # 🛡️ Prompt-adversarial collections
 
-// Included JP->EN inline translation. Original JP maintained, Language encoding in itself is an additional vector to consider.
+Included JP->EN inline translation. Original JP maintained, Language encoding in itself is an additional vector to consider.
 
 ![Project Status: Active](https://img.shields.io/badge/Project%20Status-Active-brightgreen)
 
