@@ -42,9 +42,9 @@ The act of jailbreaking ChatGPT involves removing the limitations and restrictio
 
 Once ChatGPT has been successfully jailbroken, users can request the AI chatbot to perform various tasks, including sharing unverified information, providing the current date and time, and accessing restricted content. This article will delve into the working ChatGPT jailbreak prompts list.
 
-ChatGPT 的越狱行为涉及消除对AI语言模型的限制和约束。为了启动这一过程，用户可以在聊天界面上输入特定的提示。这些ChatGPT越狱提示最初是由Reddit用户发现的，后来被广泛使用。
-
 Jailbreaking ChatGPT involves removing restrictions and constraints on AI language models. To initiate this process, users can enter specific hints in the chat interface. These ChatGPT jailbreak hints were initially discovered by Reddit users and subsequently gained widespread use.
+
+*ChatGPT 的越狱行为涉及消除对AI语言模型的限制和约束。为了启动这一过程，用户可以在聊天界面上输入特定的提示。这些ChatGPT越狱提示最初是由Reddit用户发现的，后来被广泛使用。*
 
 
 一 Once ChatGPT is successfully jailbroken, users can request the AI ​​chatbot to perform various tasks, including sharing unverified information, providing the current date and time, and accessing restricted content. This article will delve into the ChatGPT jailbreak hint list in practice. The method of using hints for jailbreaking is not only effective for GPT but also has a certain degree of universality for other language models.
